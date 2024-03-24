@@ -1,0 +1,70 @@
+#signature p:hover{
+    background: linear-gradient(45deg,#ff004f,pink,skyblue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.nav-container ul li a::after{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: -.13rem;
+    background: #ff004f;
+    width: 0;
+    height: 2.6px;
+    transition: width .5s;
+}
+
+.nav-container ul li a:hover::after{
+    width: 100%;
+}
+
+.fa-xmark:hover{
+    color: red;
+}
+.fa-bars:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.tab:hover{
+    color: #ff004f;
+}
+
+/* ------------------------------skills--------------------------- */
+
+.skill-box:hover{
+    transform: translateY(-1rem);
+    background-color: #ff004f;
+}
+/* ---------------------projects layer-------------------------------------- */
+
+.project-box:hover .layer{
+    height: 100%;
+}
+/* --------------------------for botton---------------------------------------- */
+
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+/* -------------------------for contact--------------------------------------------- */
+
+#contact-block a:hover{
+    transform: scale(1.05);
+}
+
+#contact-inline a i:hover{
+    font-size: 2.3rem;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0);
+}
+
+
+textarea:hover{
+    outline: solid #ff004f;
+}
+
+input:hover{
+    outline: solid #ff004f;
+}
