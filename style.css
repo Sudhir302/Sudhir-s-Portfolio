@@ -245,11 +245,14 @@ span{
 
 /* --------------------completed project-background--------------------------------------- */
 
-#currency-completed{
+#currency-completed, #flipkart-completed{
     background-image: none;
     background-color: #ff004f;
 }
 
+
+
+/* ------------------------------------------------ */
 .layer a, .layer p{
     padding: 1rem;
 }
