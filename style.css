@@ -245,7 +245,7 @@ span{
 
 /* --------------------completed project-background--------------------------------------- */
 
-#currency-completed, #flipkart-completed{
+#currency-completed, #flipkart-completed, #scissor-completed{
     background-image: none;
     background-color: forestgreen;
 }
